@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <title>Tela cadastro</title>
+</head>
+<body>
+    <div class="container cCadastro">
+        <form id="formRegister">
+            <label for="fullName">Nome completo</label>
+            <input type="text" name="fullName" id="fullName" class="inputFormulario">
+
+            <label for="username">Usuario</label>
+            <input type="text" name="username" id="username" class="inputFormulario">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="inputFormulario">
+
+            <label for="passw">Senha</label>
+            <input type="password" name="passw" id="passw" class="inputFormulario">
+
+            <label for="confirmPassw">Confirmar Senha</label>
+            <input type="password" name="confirmPassw" id="confirmPassw" class="inputFormulario">
+
+            <button type="submit" class="btnRegister">Salvar</button>
+        </form>
+    </div>
+
+    <script src="assets/js/controller/registerController.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+</html>

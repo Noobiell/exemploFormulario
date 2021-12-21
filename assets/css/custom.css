@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, #ff7f83, #2700f6);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*formulario Login*/
+.cLogin{
+    width: 450px;
+    height: 600px;
+}
+.inputFormulario{
+    width: 100%;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.658);
+    height: 30px;
+    color: #fff;
+    margin: 10px 0px 30px 0px;
+}
+.btnEntrar{
+    float: right;
+    background: rgba(255, 255, 255, 0.438);
+    padding: 10px 30px;
+    border: 1px solid rgb(175, 175, 175);
+    color: #fff;
+}
+.textCadastro{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*FORMULÁRIO CADASTRO*/
+.cCadastro{
+    width: 800px;
+}
+.btnRegister{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1px solid #2700f6;
+}
