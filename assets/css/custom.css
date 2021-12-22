@@ -23,6 +23,27 @@ html, body{
     flex-direction: column;
     justify-content: center;
 }
+.btn{
+    display: block;
+    padding: 10px 30px;
+    background: #40bba69f;
+    border: 1px solid rgba(117, 117, 117, 0.267);
+    color: #fff;
+}
+.inputFormulario{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000d57;
+    height: 30px;
+    color: #fff;
+    margin: 10px 0px 30px 0px;
+    transition: 0.5s;
+}
+.inputFormulario:focus{
+    outline: none;
+    border-bottom: 1px solid #4dfac6;
+}
 label{
     color: #fff;
     font-size: 17px;
@@ -33,15 +54,6 @@ label{
     width: 400px;
     
 }
-.inputFormulario{
-    width: 100%;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #000d57;
-    height: 30px;
-    color: #fff;
-    margin: 10px 0px 30px 0px;
-}
 .textCadastro{
     color: #fff;
     margin-top: 20px;
@@ -51,11 +63,4 @@ label{
 /*FORMULÁRIO CADASTRO*/
 .cCadastro{
     width: 800px;
-}
-.btn{
-    float: right;
-    padding: 10px 30px;
-    background: #40bba69f;
-    border: 1px solid rgba(117, 117, 117, 0.267);
-    color: #fff;
 }
