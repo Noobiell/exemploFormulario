@@ -8,7 +8,8 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(50deg, #ff7f83, #2700f6);
+    background: url(../img/background2.jpg) no-repeat;
+    background-size: cover;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
 }
@@ -16,31 +17,30 @@ html, body{
     background-color: rgba(255, 255, 255, 0.158);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 70px 0px 70px 0px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+label{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
 /*formulario Login*/
 .cLogin{
-    width: 450px;
-    height: 600px;
+    width: 400px;
+    
 }
 .inputFormulario{
     width: 100%;
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.658);
+    border: none;
+    border-bottom: 1px solid #000d57;
     height: 30px;
     color: #fff;
     margin: 10px 0px 30px 0px;
-}
-.btnEntrar{
-    float: right;
-    background: rgba(255, 255, 255, 0.438);
-    padding: 10px 30px;
-    border: 1px solid rgb(175, 175, 175);
-    color: #fff;
 }
 .textCadastro{
     color: #fff;
@@ -52,8 +52,10 @@ html, body{
 .cCadastro{
     width: 800px;
 }
-.btnRegister{
+.btn{
+    float: right;
     padding: 10px 30px;
-    background: #fff;
-    border: 1px solid #2700f6;
+    background: #40bba69f;
+    border: 1px solid rgba(117, 117, 117, 0.267);
+    color: #fff;
 }
