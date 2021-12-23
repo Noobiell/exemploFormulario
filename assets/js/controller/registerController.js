@@ -15,23 +15,35 @@ class Register {
     }
 
     getValues(){
-
+        
         let user = {};
+        let isValid = true;
 
-        [...this._formEl.elements].forEach((e)=>{
+        [...this._formEl.elements].forEach(element=>{
 
-            user[e.name] = e.value;
+            if(["fullName", "username", "email", "password"].indexOf(element.name) > -1 && !element.value){
+
+                element.classList.add("erro");
+
+                isValid = false;
+
+            }
+
+            user[element.name] = element.value;
 
         });
 
+        if(!isValid){
+            return false;
+        }
+
         if(user["passw"] != user["confirmPassw"]){
-            console.log("erro nas senhas");
+            console.log("Deu erro");
             return false;
         }
 
         console.log(user);
 
         this._formEl.reset();
-
     }
 }
