@@ -15,7 +15,6 @@ class Register {
     }
 
     getValues(){
-        
         let user = {};
         let isValid = true;
 
@@ -33,12 +32,12 @@ class Register {
 
         });
 
-        if(!isValid){
-            return false;
-        }
-
         if(user["passw"] != user["confirmPassw"]){
             console.log("Deu erro");
+            isValid = false;
+        }
+
+        if(!isValid){
             return false;
         }
 
