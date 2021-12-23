@@ -44,6 +44,9 @@ html, body{
     outline: none;
     border-bottom: 1px solid #4dfac6;
 }
+.erro{
+    border-bottom: 1px solid rgb(255, 91, 91);
+}
 label{
     color: #fff;
     font-size: 17px;
