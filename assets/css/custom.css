@@ -67,3 +67,15 @@ label{
 .cCadastro{
     width: 800px;
 }
+
+
+@media screen and (min-width: 0px) and (max-width:550px){
+
+    html, body{
+        padding: 0px 0px;
+
+    }
+    .cLogin{
+        width: 65%;
+    }
+}
