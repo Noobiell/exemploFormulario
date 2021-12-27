@@ -79,3 +79,9 @@ label{
         width: 65%;
     }
 }
+
+@media screen and (max-width: 950px){
+    .cCadastro{
+        width: 65%;
+    }
+}
